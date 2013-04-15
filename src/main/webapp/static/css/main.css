@@ -1,0 +1,35 @@
+#reportsTable {
+	border: 1px solid #98bf21;
+	border-collapse:collapse;
+	margin-top: 15px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align: left;
+}
+
+#reportsTable th {
+	width: 140px;
+	background-color:#A7C942;
+	color: #fff;
+}
+
+#reportsTable tr:nth-child(odd)   {
+	color:#000;
+	background-color:#EAF2D3;
+}
+
+#reportsTable td th {
+	padding: 2px;
+}
+
+#message, #error {
+	margin-top: 10px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.1em;
+	font-weight: bold;  
+}
+
+#error {
+	font-size: 1em;
+	color: red;
+}
+
